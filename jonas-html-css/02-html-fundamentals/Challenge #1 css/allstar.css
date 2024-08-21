@@ -1,0 +1,59 @@
+body{
+    font-family: serif;
+    line-height: 1,5;
+    text-align: center;
+}
+h1{
+    text-transform: uppercase;
+    text-align:center;
+    background-color: #f7f7f7;
+
+}
+.the-cost{
+    font-size:20px;
+}
+.free{
+    font-size:12px;
+    text-transform:uppercase;
+    font-weight:bold;
+    color:#777;
+}
+
+.more-info:link, .more-info:visited{
+    color:#000;
+}
+.more-info:hover, .more-info:active{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+article{
+    border: 7px solid #000;
+}
+
+.details-title{
+    text-transform: uppercase;
+    font-size: 17px;
+}
+
+.details-list{
+    list-style:square; 
+
+    /* list-style: none; */
+}
+.Click-here{
+    background-color: #000;
+    border:none;         /*بردر خود دکمه مد نظر است که نان می گیرد*/
+    color:white;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+
+} 
+
+.Click-here:hover{
+    color:#000;
+    background-color: white;
+
+}
