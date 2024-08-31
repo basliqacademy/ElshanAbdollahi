@@ -1,0 +1,153 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    @font-face {
+        font-family: 'JetBrains Mono';
+        src: url('fonts/JetBrainsMono-Regular.woff2') format('woff2'),
+             url('fonts/JetBrainsMono-Regular.woff') format('woff');
+
+    margin: right 32px; 
+    /* width: 1920px;   */
+    }
+}
+.container{
+    width: 850px;
+    margin: 0 auto;
+}
+article {
+    font-family: 'JetBrains Mono',monospace;
+    /* border: 0 solid #0E0E0E; */
+}
+
+ 
+.the-table{
+    background-color: #0E0E0E;
+    color:  #FFFFFF;    
+    /* font-weight: 400; */
+    font-size: 15px;
+    width: 850px;
+    height: 50px;
+    line-height: 0;
+    text-align: left;
+    /* border-spacing: 5px;
+    border-collapse: separate; */
+    /* gap:50px; */
+    /* margin-right: 50px; */
+    padding: 0 0;
+
+}
+td{
+    padding: 5px;
+} 
+.part2{
+    background-color: #0C2100;
+    color: #CDCDCD;
+    height: 220px;
+    font-size: 15px;
+}
+.part2 ol {
+
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    padding-top: 0;
+    padding-bottom: 5px;
+
+}
+ol li{
+    /* display: inline; */
+
+    margin-right: 10px;
+}
+
+.paragraf{
+    color: #FFFFFF;
+    display: inline;
+    /* padding-right: 10px; */
+}
+.enter{
+    color: #CDCDCD;
+}
+.id{
+    color: #FFFFFF;
+}
+.last-one{
+    color: #33FF60;
+}
+.part3{
+    background-color: #0E0E0E;
+    height: 180px;
+    font-size: 15px;
+}
+.part3 ol{
+    color: #CDCDCD;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+.view-of-students{
+    color: #359EFF;
+    padding-top: 5px;
+
+}
+.table{
+    padding: 5px 0;
+    border-spacing: 0;
+    border-collapse: collapse;
+    text-align: left;
+}
+td, th{
+    padding: 2px;
+}
+tr th{
+    color: #359EFF;
+
+}
+.odd-rows{
+    color: #FFFFFF;
+}
+.even-row{
+    color:  #B4B4B4;
+}
+.part4{
+    background-color:  #1F0000;
+    font-size: 15px;
+    height: 80px;
+}
+.part4 ol{
+    color: #CDCDCD;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    padding-top: 0;
+    padding-bottom: 5px;
+}
+.text{
+    color: #FFFFFF;
+}
+.eror{
+    color: #FF5454;
+}
+.part5{
+    background-color:#0E0E0E;
+    font-size: 15px;
+    height: 35px;
+}
+.part5 ol{
+    color:#FFFFFF;
+    padding: 30px;
+    display: flex;
+    gap: 20px;
+    padding-top: 7px;
+    padding-bottom: 5px;
+}
+.part6{
+    background-color: #181818;
+    height:80px;
+    color: #FFFFFF;
+
+}
